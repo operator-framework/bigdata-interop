@@ -32,7 +32,7 @@
   </description>
 
   <artifactId>gcs-connector</artifactId>
-  <version>${hadoop.identifier}-1.9.17</version>
+  <version>1.9.17.${hadoop.identifier}-1</version>
 
   <profiles>
     <profile>
@@ -200,7 +200,7 @@
     <dependency>
       <groupId>com.google.cloud.bigdataoss</groupId>
       <artifactId>util-hadoop</artifactId>
-      <version>${hadoop.identifier}-${bigdataoss.version}</version>
+      <version>${bigdataoss.version}.${hadoop.identifier}-1</version>
     </dependency>
     <dependency>
       <groupId>com.google.cloud.bigdataoss</groupId>
